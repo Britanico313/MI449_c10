@@ -6,4 +6,4 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('desc1').textContent = data.weather[0].description;
         });
 
-    
+})
