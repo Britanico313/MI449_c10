@@ -3,16 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>City Search with AccuWeather APIs</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Car API</title>
 </head>
 <body>
-    <div id="app">
-        <h1>City Search</h1>
-        <input type="text" id="cityInput" placeholder="Start typing a city name..." oninput="suggestCities()">
-        <div id="suggestions" class="suggestions"></div>
-        <div id="cityDetails" class="city-details"></div>
-    </div>
-    <script src="weatherdata.js"></script>
+    <div id="data"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@1.28.5/dist/supabase.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
